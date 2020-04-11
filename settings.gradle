@@ -1,0 +1,2 @@
+rootProject.name='TsujichoMenuApplication'
+include ':app'

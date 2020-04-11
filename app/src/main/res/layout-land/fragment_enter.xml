@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="@string/tvEnterTitle"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:id="@+id/tvEnterTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:padding="5dp"
+        android:text="@string/tvEnterParagraph"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:id="@+id/tvEnterParagraph"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnEnterJa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/btnEnterJa"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btnEnterEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btnEnterEn"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btnEnterCh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btnEnterCh"
+            android:textSize="30sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/btnEnterChange"
+            android:textSize="20sp"
+            android:id="@+id/btnEnterChange"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEnterStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:padding="5dp"
+        android:text="@string/btnEnterStart"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+</LinearLayout>

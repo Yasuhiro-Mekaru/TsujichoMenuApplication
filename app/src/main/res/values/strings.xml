@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tsujicho</string>
+
+    <string name="tvEnterTitle">ようこそTsujichoへ</string>
+    <string name="tvEnterParagraph">言語を選んでください</string>
+
+    <string name="btnEnterJa">日本語</string>
+    <string name="btnEnterEn">English</string>
+    <string name="btnEnterCh">中文</string>
+    <string name="btnEnterChange">変更する</string>
+    <string name="btnEnterStart">START</string>
+
+</resources>
